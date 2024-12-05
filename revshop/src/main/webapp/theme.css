@@ -1,0 +1,94 @@
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000000;
+	color: white;
+	padding: 20px;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.header-title {
+	flex-grow: 1;
+	text-align: left;
+	margin: 0;
+}
+.product-list {
+	display: flex; /* Arrange items in a row */
+	justify-content: space-around; /* Space out the items evenly */
+	flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+	margin: 20px 0; /* Add some space above and below the product list */
+	padding: 0;
+	list-style: none; /* Remove default list styles */
+}
+
+.product-item {
+	background-color: #f8f8f8; /* Light background color for each product */
+	border: 1px solid #ddd; /* Light border around each product */
+	border-radius: 5px; /* Rounded corners */
+	width: auto; /* Set width to 30% of the container */
+	margin: 10px; /* Add space around each product item */
+	padding: 15px;
+	/* Internal padding for content inside the product item */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	/* Subtle shadow for a 3D effect */
+	text-align: center; /* Center align text inside the product item */
+	transition: transform 0.2s, box-shadow 0.2s;
+	/* Smooth transition for hover effect */
+	display: inline-block;
+}
+
+.product-item img {
+	max-width: 100%; /* Ensure the image fits within the product item */
+	height: 500px; /* Maintain aspect ratio */
+	border-bottom: 1px solid #ddd;
+	/* Line separating the image from the rest of the content */
+	padding-bottom: 15px; /* Space below the image */
+	margin-bottom: 15px; /* Space below the image */
+}
+
+.button {
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 10px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #000000;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+.drp {
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 10px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #000000;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+.drp:hover {
+	background-color: #7a7a76;
+}
+
+.button:hover {
+	background-color: #7a7a76;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	padding: 50px;
+}
